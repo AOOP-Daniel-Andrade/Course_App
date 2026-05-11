@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Enrollment</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Enrollment</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">747fc2bc9d12321055903da570aff023</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 16:40:29</sys_created_on>
+        <sys_id>8362cd659338031039d0367efaba105b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollment</sys_name>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_update_name>sys_wizard_answer_8362cd659338031039d0367efaba105b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 16:40:29</sys_updated_on>
+        <table/>
+        <target_url>x_875435_course_0_enrollment.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

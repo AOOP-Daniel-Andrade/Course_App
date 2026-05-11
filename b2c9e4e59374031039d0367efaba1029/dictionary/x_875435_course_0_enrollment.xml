@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cf628d659338031039d0367efaba10ed" extends="task" label="Enrollment" max_length="40" name="x_875435_course_0_enrollment" type="collection">
+        <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element label="Course" max_length="32" name="course" reference="x_875435_course_0_course" type="reference"/>
+        <element label="Course Schedule" max_length="32" name="course_schedule" reference="x_875435_course_0_course_schedule" type="reference"/>
+    </element>
+</database>

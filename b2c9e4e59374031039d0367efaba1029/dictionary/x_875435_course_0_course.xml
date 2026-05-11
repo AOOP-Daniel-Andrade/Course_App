@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="19ef78219338031039d0367efaba10d0" label="Course" max_length="40" name="x_875435_course_0_course" type="collection">
+        <element choice="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Starting" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Invalid" sequence="4" value="7"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Course Description" max_length="4000" name="course_description" type="string"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
+        <element display="true" label="Course Name" max_length="40" name="course_name" type="string"/>
+    </element>
+</database>
