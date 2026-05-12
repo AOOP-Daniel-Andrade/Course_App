@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Course Enrollment">db2c6129937c031039d0367efaba101c</catalog_item>
+        <catalog_variable>IO:61c4793d933c831039d0367efaba1016</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 17:45:50</sys_created_on>
+        <sys_id>d2fa9ef99370c31039d0367efaba106f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>select_course_schedule</sys_name>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d2fa9ef99370c31039d0367efaba106f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 17:45:50</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Default Mandatory Items">41da563d9370c31039d0367efaba10de</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>select_course_schedule</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=d2fa9ef99370c31039d0367efaba106f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course App">b2c9e4e59374031039d0367efaba1029</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>catalog_ui_policy_action_d2fa9ef99370c31039d0367efaba106f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Course Enrollment">db2c6129937c031039d0367efaba101c</catalog_item><catalog_variable>IO:61c4793d933c831039d0367efaba1016</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-12 17:45:50</sys_created_on><sys_id>d2fa9ef99370c31039d0367efaba106f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>select_course_schedule</sys_name><sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package><sys_policy/><sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope><sys_update_name>catalog_ui_policy_action_d2fa9ef99370c31039d0367efaba106f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-12 17:45:50</sys_updated_on><table/><ui_policy display_value="Default Mandatory Items">41da563d9370c31039d0367efaba10de</ui_policy><value/><value_action>ignore</value_action><variable>select_course_schedule</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=d2fa9ef99370c31039d0367efaba106f"/></record_update>]]></payload>
+        <payload_hash>225515533</payload_hash>
+        <record_name>select_course_schedule</record_name>
+        <reverted_from/>
+        <source>2f6fb82d93f4031039d0367efaba1027</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 17:45:51</sys_created_on>
+        <sys_id>9efa1e3d9370c31039d0367efaba103e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e1d4b8f490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 17:45:51</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>d2fa1e3d4d70c31064413bd75d0d4731</update_guid>
+        <update_guid_history>d2fa1e3d4d70c31064413bd75d0d4731:225515533</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="select_course_schedule">ad4ed23593b0c31039d0367efaba1085</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 18:00:16</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>1e9844c088154c20899ea2ab374bca21</sys_id>
+        <sys_metadata>d2fa9ef99370c31039d0367efaba106f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>select_course_schedule</sys_name>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_scope_delete display_value="">1bd850e9095b4a2d8d23848ed5ec1021</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_d2fa9ef99370c31039d0367efaba106f</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_d2fa9ef99370c31039d0367efaba106f">9efa1e3d9370c31039d0367efaba103e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 18:00:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

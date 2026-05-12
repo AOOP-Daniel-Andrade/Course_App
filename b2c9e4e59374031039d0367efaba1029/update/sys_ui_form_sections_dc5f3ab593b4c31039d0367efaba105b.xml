@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="dc5f3ab593b4c31039d0367efaba105b" sys_domain="global" table="x_875435_course_0_enrollment" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-12 20:24:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>545f3ab593b4c31039d0367efaba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_875435_course_0_enrollment" name="x_875435_course_0_enrollment" sys_domain="global" view="Default view">dc5f3ab593b4c31039d0367efaba105b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_875435_course_0_enrollment" sys_domain="global" view="Default view">1362c5e19338031039d0367efaba1053</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-12 20:24:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-12 20:24:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c5f3ab593b4c31039d0367efaba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_875435_course_0_enrollment" name="x_875435_course_0_enrollment" sys_domain="global" view="Default view">dc5f3ab593b4c31039d0367efaba105b</sys_ui_form>
+            <sys_ui_section caption="Comments" display_value="Comments" name="x_875435_course_0_enrollment" sys_domain="global" view="Default view">d05ff6b593b4c31039d0367efaba102e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-12 20:24:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_875435_course_0_enrollment</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-12 20:24:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc5f3ab593b4c31039d0367efaba105b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_875435_course_0_enrollment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dc5f3ab593b4c31039d0367efaba105b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-12 20:24:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

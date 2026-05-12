@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>training_date</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 18:44:11</sys_created_on>
+        <sys_id>a648a63993f0c31039d0367efaba10fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>training_date</sys_name>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a648a63993f0c31039d0367efaba10fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 18:44:11</sys_updated_on>
+        <table>x_875435_course_0_course_schedule</table>
+        <ui_policy display_value="Clear Training Date if Course is empty">f728e23993f0c31039d0367efaba10cc</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=a648a63993f0c31039d0367efaba10fd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course App">b2c9e4e59374031039d0367efaba1029</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>sys_ui_policy_action_a648a63993f0c31039d0367efaba10fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>training_date</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-12 18:44:11</sys_created_on><sys_id>a648a63993f0c31039d0367efaba10fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>training_date</sys_name><sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package><sys_policy/><sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope><sys_update_name>sys_ui_policy_action_a648a63993f0c31039d0367efaba10fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-12 18:44:11</sys_updated_on><table>x_875435_course_0_course_schedule</table><ui_policy display_value="Clear Training Date if Course is empty">f728e23993f0c31039d0367efaba10cc</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=a648a63993f0c31039d0367efaba10fd"/></record_update>]]></payload>
+        <payload_hash>1771172978</payload_hash>
+        <record_name>training_date</record_name>
+        <reverted_from/>
+        <source>2f6fb82d93f4031039d0367efaba1027</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 18:44:11</sys_created_on>
+        <sys_id>bc582a3993f0c31039d0367efaba1010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e1d80f4f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 18:44:11</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b8582a39bdf0c31094a4785a8033b30f</update_guid>
+        <update_guid_history>b8582a39bdf0c31094a4785a8033b30f:1771172978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 20:03:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>19b46a6cf9df4da484bfa09ed53343b1</sys_id>
+        <sys_metadata>a648a63993f0c31039d0367efaba10fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>training_date</sys_name>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_scope_delete display_value="">1bd850e9095b4a2d8d23848ed5ec1021</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_a648a63993f0c31039d0367efaba10fd</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_a648a63993f0c31039d0367efaba10fd">bc582a3993f0c31039d0367efaba1010</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 20:03:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

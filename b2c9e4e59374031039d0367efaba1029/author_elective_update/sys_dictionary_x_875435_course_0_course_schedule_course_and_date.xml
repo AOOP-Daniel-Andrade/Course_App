@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="course_and_date" table="x_875435_course_0_course_schedule">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Course and Date</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>course_and_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>1000</max_length>
+        <name>x_875435_course_0_course_schedule</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 16:39:09</sys_created_on>
+        <sys_id>6b1205659338031039d0367efaba1026</sys_id>
+        <sys_name>Course and Date</sys_name>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_update_name>sys_dictionary_x_875435_course_0_course_schedule_course_and_date</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 15:45:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course App">b2c9e4e59374031039d0367efaba1029</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>sys_dictionary_x_875435_course_0_course_schedule_course_and_date</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="course_and_date" table="x_875435_course_0_course_schedule"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Course and Date</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>course_and_date</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>1000</max_length><name>x_875435_course_0_course_schedule</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-11 16:39:09</sys_created_on><sys_id>6b1205659338031039d0367efaba1026</sys_id><sys_name>Course and Date</sys_name><sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package><sys_policy/><sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope><sys_update_name>sys_dictionary_x_875435_course_0_course_schedule_course_and_date</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-12 15:45:51</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1700320676</payload_hash>
+        <record_name>Course Schedule.Course and Date</record_name>
+        <reverted_from/>
+        <source>2f6fb82d93f4031039d0367efaba1027</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 15:45:51</sys_created_on>
+        <sys_id>208fb9b193bc831039d0367efaba1026</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e1cddb36f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 15:45:51</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>ac8fb9b195bc8310bcddabecc8f4e224</update_guid>
+        <update_guid_history>ac8fb9b195bc8310bcddabecc8f4e224:-1700320676,8b3a7939dc7c8310dafcf438d1c7b53b:-1112944648,11e93df5de7c83109818bff983c5a2fb:-244033865,47b62dbd3cb883109cd260b40bf011c8:-1112944648,4e76a1bd38b883108ee6d12f2997c667:1339529546,6816e17d2bb88310c8564f991d072abd:1695484535,3b1205658f380310825393c127494ae5:-1473674816,7f12056559380310203a2c5b8b301cbd:-2067227836</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 17:33:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>dfeda1ae0fcf4816ad858e0e349e5531</sys_id>
+        <sys_metadata>6b1205659338031039d0367efaba1026</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course and Date</sys_name>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_parent display_value="Course Schedule">a61105e19338031039d0367efaba10b2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_scope_delete display_value="">1bd850e9095b4a2d8d23848ed5ec1021</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_875435_course_0_course_schedule_course_and_date</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_875435_course_0_course_schedule_course_and_date">208fb9b193bc831039d0367efaba1026</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 17:33:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

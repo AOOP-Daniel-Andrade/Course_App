@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a61105e19338031039d0367efaba10b2" label="Course Schedule" max_length="40" name="x_875435_course_0_course_schedule" type="collection">
-        <element label="Enrollments" max_length="40" name="enrollments" type="integer"/>
-        <element display="true" label="Course and Date" max_length="1000" name="course_and_date" type="string"/>
-        <element label="Training Date" max_length="40" name="training_date" type="glide_date"/>
+        <element display="true" label="Training Date" max_length="40" name="training_date" type="glide_date"/>
         <element label="Instructor" max_length="32" name="instructor" reference="sys_user" reference_qual="roles=x_875435_course_0.course_instructor^EQ" reference_qual_condition="roles=x_875435_course_0.course_instructor^EQ" type="reference"/>
         <element label="Capacity" max_length="40" name="capacity" type="integer"/>
         <element label="Course" max_length="32" name="course" reference="x_875435_course_0_course" type="reference"/>

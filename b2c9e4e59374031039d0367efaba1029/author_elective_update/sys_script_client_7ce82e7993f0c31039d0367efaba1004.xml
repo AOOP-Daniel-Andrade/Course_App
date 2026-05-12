@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>course</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Clear C. Schedule when Course changes</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (newValue != oldValue) {
+        g_form.clearValue('course_schedule');
+        g_form.showFieldMsg('course_schedule', 'Course Schedule was cleared because the Course reference was changed', 'info');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 18:49:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ce82e7993f0c31039d0367efaba1004</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Clear C. Schedule when Course changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_update_name>sys_script_client_7ce82e7993f0c31039d0367efaba1004</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 20:31:42</sys_updated_on>
+        <table>x_875435_course_0_enrollment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course App">b2c9e4e59374031039d0367efaba1029</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>sys_script_client_7ce82e7993f0c31039d0367efaba1004</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;course&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Clear C. Schedule when Course changes&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (newValue != oldValue) {
+        g_form.clearValue('course_schedule');
+        g_form.showFieldMsg('course_schedule', 'Course Schedule was cleared because the Course reference was changed', 'info');
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-12 18:49:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7ce82e7993f0c31039d0367efaba1004&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Clear C. Schedule when Course changes&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Course App" source="x_875435_course_0"&gt;b2c9e4e59374031039d0367efaba1029&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Course App"&gt;b2c9e4e59374031039d0367efaba1029&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_7ce82e7993f0c31039d0367efaba1004&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-12 20:31:42&lt;/sys_updated_on&gt;&lt;table&gt;x_875435_course_0_enrollment&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1571499223</payload_hash>
+        <record_name>Clear C. Schedule when Course changes</record_name>
+        <reverted_from/>
+        <source>2f6fb82d93f4031039d0367efaba1027</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 20:31:43</sys_created_on>
+        <sys_id>c8f0cf7993b4c31039d0367efaba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e1de367c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 20:31:43</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>7be0cf79dfb4c3100757445666f86535</update_guid>
+        <update_guid_history>7be0cf79dfb4c3100757445666f86535:-1571499223,612bb27db974c31067838fcce0d903cc:-2066043446,479b2afdf3f0c310a3eeadadc681aae0:-1831787504,115baebdaaf0c3109898b5ccdcd2896f:-15010566,470ba6f9c1f0c310933d9fd25a876c8c:1497165718,c32a2a3d16f0c310ca4bb0ea153628b1:-1253455668,997926791ef0c3100b63541bb3727716:-704649754</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 20:34:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>16110476a9054928866dbf3df02e2510</sys_id>
+        <sys_metadata>7ce82e7993f0c31039d0367efaba1004</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clear C. Schedule when Course changes</sys_name>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_parent display_value="Enrollment">cf628d659338031039d0367efaba10ed</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_scope_delete display_value="">1bd850e9095b4a2d8d23848ed5ec1021</sys_scope_delete>
+        <sys_update_name>sys_script_client_7ce82e7993f0c31039d0367efaba1004</sys_update_name>
+        <sys_update_version display_value="sys_script_client_7ce82e7993f0c31039d0367efaba1004">c8f0cf7993b4c31039d0367efaba1036</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 20:34:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

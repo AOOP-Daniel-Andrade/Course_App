@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow query_match for course_and_date in x_875435_course_0_course_schedule, for users with role admin.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_875435_course_0_course_schedule.course_and_date</name>
+        <operation display_value="query_match">521c7497b7300210240b06dd1e11a979</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 15:08:08</sys_created_on>
+        <sys_id>45b6bd31937c831039d0367efaba109a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_875435_course_0_course_schedule.course_and_date</sys_name>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_update_name>sys_security_acl_45b6bd31937c831039d0367efaba109a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 15:10:49</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course App">b2c9e4e59374031039d0367efaba1029</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>sys_security_acl_45b6bd31937c831039d0367efaba109a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow query_match for course_and_date in x_875435_course_0_course_schedule, for users with role admin.</description><local_or_existing>Local</local_or_existing><name>x_875435_course_0_course_schedule.course_and_date</name><operation display_value="query_match">521c7497b7300210240b06dd1e11a979</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-12 15:08:08</sys_created_on><sys_id>45b6bd31937c831039d0367efaba109a</sys_id><sys_mod_count>5</sys_mod_count><sys_name>x_875435_course_0_course_schedule.course_and_date</sys_name><sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package><sys_policy/><sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope><sys_update_name>sys_security_acl_45b6bd31937c831039d0367efaba109a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-12 15:10:49</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-190245381</payload_hash>
+        <record_name>x_875435_course_0_course_schedule.course_and_date</record_name>
+        <reverted_from/>
+        <source>2f6fb82d93f4031039d0367efaba1027</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 15:10:49</sys_created_on>
+        <sys_id>1f77f9b1937c831039d0367efaba104f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e1cbd9db20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 15:10:49</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>9b77f9b1167c8310b8d963ad2a64644e</update_guid>
+        <update_guid_history>9b77f9b1167c8310b8d963ad2a64644e:-190245381,2767f5b1487c8310030bea249f76ae85:-1228035271,2b5775b1757c8310bf41ebaa198427e7:-116947445,3f477d712b7c83107cf2958ecd47c26b:1117084153,b437fd71b37c8310943a436896d5799f:-1413931301,40e63571217c831070c93d94cec94d39:-992780102</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 15:20:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>4e2c4bad3aa240128ef928c6ea897404</sys_id>
+        <sys_metadata>45b6bd31937c831039d0367efaba109a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_875435_course_0_course_schedule.course_and_date</sys_name>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_parent display_value="">6b1205659338031039d0367efaba1026</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_scope_delete display_value="">1bd850e9095b4a2d8d23848ed5ec1021</sys_scope_delete>
+        <sys_update_name>sys_security_acl_45b6bd31937c831039d0367efaba109a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_45b6bd31937c831039d0367efaba109a">1f77f9b1937c831039d0367efaba104f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 15:20:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
