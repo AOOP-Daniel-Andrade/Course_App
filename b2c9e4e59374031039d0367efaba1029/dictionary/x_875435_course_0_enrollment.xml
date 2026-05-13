@@ -3,6 +3,6 @@
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Student" max_length="32" name="student" reference="sys_user" reference_qual="roles=x_875435_course_0.student^EQ" reference_qual_condition="roles=x_875435_course_0.student^EQ" type="reference"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
         <element label="Course" max_length="32" name="course" reference="x_875435_course_0_course" type="reference"/>
-        <element dependent="course" dependent_on_field="course" label="Course Schedule" max_length="32" name="course_schedule" reference="x_875435_course_0_course_schedule" type="reference" use_dependent_field="true"/>
+        <element dependent="course" dependent_on_field="course" label="Course Schedule" max_length="32" name="course_schedule" reference="x_875435_course_0_course_schedule" reference_floats="true" type="reference" use_dependent_field="true"/>
     </element>
 </database>

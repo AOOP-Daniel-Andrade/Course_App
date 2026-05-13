@@ -7,24 +7,24 @@
         <condition/>
         <controlled_by_refs/>
         <decision_type>allow</decision_type>
-        <description>Allow query_range for records in x_875435_course_0_course_schedule, for users with role x_875435_course_0.student.</description>
+        <description>Allow read for records in x_875435_course_0_course_schedule, for users with role approver_user.</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_875435_course_0_course_schedule</name>
-        <operation display_value="query_range">e66cf897b7300210240b06dd1e11a9fd</operation>
+        <operation display_value="read">read</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-12 16:39:26</sys_created_on>
-        <sys_id>69cb0a7d93fc831039d0367efaba105f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2026-05-13 18:37:34</sys_created_on>
+        <sys_id>bd603b8a93b8471039d0367efaba101d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>x_875435_course_0_course_schedule</sys_name>
         <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
         <sys_policy/>
         <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
-        <sys_update_name>sys_security_acl_69cb0a7d93fc831039d0367efaba105f</sys_update_name>
+        <sys_update_name>sys_security_acl_bd603b8a93b8471039d0367efaba101d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-13 17:55:37</sys_updated_on>
+        <sys_updated_on>2026-05-13 18:38:34</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

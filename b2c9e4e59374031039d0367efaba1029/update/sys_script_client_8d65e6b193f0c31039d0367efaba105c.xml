@@ -33,7 +33,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 
     ga.getXMLAnswer(function(answer) {
         if (answer == 'true') {
-            g_form.clearValue('training_date'); // Clear the field if duplicate
+            g_form.clearValue('training_date');
             g_form.showFieldMsg('training_date', 'This date is already taken. Please select another.', 'error');
         }
     });
@@ -44,7 +44,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8d65e6b193f0c31039d0367efaba105c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Check duplicate date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
@@ -52,7 +52,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
         <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
         <sys_update_name>sys_script_client_8d65e6b193f0c31039d0367efaba105c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-12 18:41:42</sys_updated_on>
+        <sys_updated_on>2026-05-13 14:10:54</sys_updated_on>
         <table>x_875435_course_0_course_schedule</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
