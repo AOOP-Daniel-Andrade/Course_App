@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-05-12 20:12:20</sys_updated_on>
         <table>x_875435_course_0_course_schedule</table>
-        <ui_policy display_value="Omit Training Date if Course is empty">134cb23193b4c31039d0367efaba1075</ui_policy>
+        <ui_policy display_value="Omit Fields if Course is empty">134cb23193b4c31039d0367efaba1075</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>false</visible>

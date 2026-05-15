@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">1792ab9693f4c71039d0367efaba101f</canvas>
+        <component display_value="Step">7fa5f7264941fabfb1542985da30e0b8</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"step","showContinuousLine":true,"showMarkers":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Course Schedule","sourceType":"table","tableOrViewName":"x_875435_course_0_course_schedule","filterQuery":"training_date&gt;javascript:gs.endOfToday()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4Xzg3NTQzNV9jb3Vyc2VfMF9jb3Vyc2Vfc2NoZWR1bGUxNzc4NzYyMjQzNjc1","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":true,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headerTitle":"Upcoming courses","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":true,"metrics":[{"dataSource":"dGFibGV4Xzg3NTQzNV9jb3Vyc2VfMF9jb3Vyc2Vfc2NoZWR1bGUxNzc4NzYyMjQzNjc1","id":"ZEdGaWJHVjRYemczTlRRek5WOWpiM1Z5YzJWZk1GOWpiM1Z5YzJWZmMyTm9aV1IxYkdVeE56YzROell5TWpRek5qYzExNzc4NzYyMjQ1NjIx","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4Xzg3NTQzNV9jb3Vyc2VfMF9jb3Vyc2Vfc2NoZWR1bGUxNzc4NzYyMjQzNjc1","groupByField":"course","metric":"ZEdGaWJHVjRYemczTlRRek5WOWpiM1Z5YzJWZk1GOWpiM1Z5YzJWZmMyTm9aV1IxYkdVeE56YzROell5TWpRek5qYzExNzc4NzYyMjQ1NjIx","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":false}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"training_date","metric":"ZEdGaWJHVjRYemczTlRRek5WOWpiM1Z5YzJWZk1GOWpiM1Z5YzJWZmMyTm9aV1IxYkdVeE56YzROell5TWpRek5qYzExNzc4NzYyMjQ1NjIx"}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"etde5hu0","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"useCurrentDateForEnd":false,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"id":"dataPassthrough","value":null,"noDebounce":true,"propLabel":"Data"}</component_props>
+        <h>12</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-14 12:53:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d5b6b1a9338c71039d0367efaba102f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_update_name>par_dashboard_widget_9d5b6b1a9338c71039d0367efaba102f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-15 18:45:16</sys_updated_on>
+        <visualization/>
+        <w>11</w>
+        <widget_props/>
+        <x>37</x>
+        <y>22</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course App">b2c9e4e59374031039d0367efaba1029</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>par_dashboard_widget_9d5b6b1a9338c71039d0367efaba102f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">1792ab9693f4c71039d0367efaba101f</canvas><component display_value="Step">7fa5f7264941fabfb1542985da30e0b8</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"step","showContinuousLine":true,"showMarkers":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Course Schedule","sourceType":"table","tableOrViewName":"x_875435_course_0_course_schedule","filterQuery":"training_date&gt;javascript:gs.endOfToday()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4Xzg3NTQzNV9jb3Vyc2VfMF9jb3Vyc2Vfc2NoZWR1bGUxNzc4NzYyMjQzNjc1","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":true,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headerTitle":"Upcoming courses","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":true,"metrics":[{"dataSource":"dGFibGV4Xzg3NTQzNV9jb3Vyc2VfMF9jb3Vyc2Vfc2NoZWR1bGUxNzc4NzYyMjQzNjc1","id":"ZEdGaWJHVjRYemczTlRRek5WOWpiM1Z5YzJWZk1GOWpiM1Z5YzJWZmMyTm9aV1IxYkdVeE56YzROell5TWpRek5qYzExNzc4NzYyMjQ1NjIx","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4Xzg3NTQzNV9jb3Vyc2VfMF9jb3Vyc2Vfc2NoZWR1bGUxNzc4NzYyMjQzNjc1","groupByField":"course","metric":"ZEdGaWJHVjRYemczTlRRek5WOWpiM1Z5YzJWZk1GOWpiM1Z5YzJWZmMyTm9aV1IxYkdVeE56YzROell5TWpRek5qYzExNzc4NzYyMjQ1NjIx","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":false}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"training_date","metric":"ZEdGaWJHVjRYemczTlRRek5WOWpiM1Z5YzJWZk1GOWpiM1Z5YzJWZmMyTm9aV1IxYkdVeE56YzROell5TWpRek5qYzExNzc4NzYyMjQ1NjIx"}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"etde5hu0","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"useCurrentDateForEnd":false,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"id":"dataPassthrough","value":null,"noDebounce":true,"propLabel":"Data"}</component_props><h>12</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-14 12:53:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9d5b6b1a9338c71039d0367efaba102f</sys_id><sys_mod_count>4</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package><sys_policy/><sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope><sys_update_name>par_dashboard_widget_9d5b6b1a9338c71039d0367efaba102f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-15 18:45:16</sys_updated_on><visualization/><w>11</w><widget_props/><x>37</x><y>22</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-630244645</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2f6fb82d93f4031039d0367efaba1027</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-15 18:45:16</sys_created_on>
+        <sys_id>f5558ef693788b1039d0367efaba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e2cf507300000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-15 18:45:16</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>75558ef6f6788b106aa5d61fa508a021</update_guid>
+        <update_guid_history>75558ef6f6788b106aa5d61fa508a021:-630244645,a8354af63c788b10db66329e25fab2eb:394449276,c625c6f65b788b10ba3e82eaed27c1fc:241993525,6ddbeb5ae038c710d8d8435e1ee0374e:-978892008,555b6b1aa238c7101fa8c7f53cf61d3e:2058003803</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">79b8c23293b88b1039d0367efaba10f4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-15 19:00:00</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>23944e0890bf426e9003bf63a71bc191</sys_id>
+        <sys_metadata>9d5b6b1a9338c71039d0367efaba102f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
+        <sys_scope_delete display_value="">1bd850e9095b4a2d8d23848ed5ec1021</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_9d5b6b1a9338c71039d0367efaba102f</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_9d5b6b1a9338c71039d0367efaba102f">f5558ef693788b1039d0367efaba1022</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-15 19:00:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

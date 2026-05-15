@@ -28,7 +28,7 @@ CourseUtils.prototype = {
 
         // --- STORY 8 ---
         var aggCourse = new GlideAggregate("x_875435_course_0_enrollment");
-        aggCourse.addEncodedQuery("state=3^course!=NULL");
+        aggCourse.addEncodedQuery("stateIN2,3^course!=NULL^student=" + studentId);
         aggCourse.addAggregate('COUNT');
         aggCourse.groupBy('course');
         aggCourse.query();
@@ -63,6 +63,7 @@ CourseUtils.prototype = {
             }
         }
 
+		// --- STORY 10, 11 ---
         var query = "training_date>javascript:gs.endOfToday()^instructor!=" + studentId;
         if (currentCourseId) {
             query += "^course=" + currentCourseId;
@@ -74,12 +75,6 @@ CourseUtils.prototype = {
             query += "^courseNOT IN" + excludedCourseIds.join(',');
         }
 
-        // ADICIONE ESTES LOGS PARA ANÁLISE:
-        gs.info("CourseUtils - Aluno: " + studentId);
-        gs.info("CourseUtils - Schedules Excluídos: " + excludedScheduleIds.join(','));
-        gs.info("CourseUtils - Cursos Excluídos: " + excludedCourseIds.join(','));
-        gs.info("CourseUtils - Query Gerada: " + query);
-
         return query;
     },
     type: 'CourseUtils'
@@ -88,13 +83,13 @@ CourseUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-14 19:58:09</sys_created_on>
         <sys_id>443d7c6293b00b1039d0367efaba107e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>CourseUtils</sys_name>
         <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
         <sys_update_name>sys_script_include_443d7c6293b00b1039d0367efaba107e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-15 02:26:44</sys_updated_on>
+        <sys_updated_on>2026-05-15 19:52:44</sys_updated_on>
     </sys_script_include>
 </record_update>
