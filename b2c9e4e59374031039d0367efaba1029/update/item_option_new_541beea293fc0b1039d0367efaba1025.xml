@@ -19,8 +19,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path/>
-        <dynamic_value_field/>
+        <dynamic_value_dot_walk_path>course_description</dynamic_value_dot_walk_path>
+        <dynamic_value_field display_value="Select course to enroll:">bfaead6d937c031039d0367efaba104f</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -45,14 +45,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>formatter</name>
+        <name>course_description</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>500</order>
+        <order>1100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text/>
+        <question_text>Course Description:</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -60,7 +60,7 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_875435_course_0_enrollment</record_producer_table>
-        <reference/>
+        <reference>x_875435_course_0_course</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -80,20 +80,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-12 17:48:22</sys_created_on>
-        <sys_id>947bda7d9370c31039d0367efaba1092</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>formatter</sys_name>
+        <sys_created_on>2026-05-15 02:53:22</sys_created_on>
+        <sys_id>541beea293fc0b1039d0367efaba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course Description:</sys_name>
         <sys_package display_value="Course App" source="x_875435_course_0">b2c9e4e59374031039d0367efaba1029</sys_package>
         <sys_policy/>
         <sys_scope display_value="Course App">b2c9e4e59374031039d0367efaba1029</sys_scope>
-        <sys_update_name>item_option_new_947bda7d9370c31039d0367efaba1092</sys_update_name>
+        <sys_update_name>item_option_new_541beea293fc0b1039d0367efaba1025</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-15 02:50:50</sys_updated_on>
+        <sys_updated_on>2026-05-15 02:53:22</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>24</type>
+        <type>2</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -109,22 +109,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=947bda7d9370c31039d0367efaba1092"/>
-    <fx_price action="delete_multiple" query="id=947bda7d9370c31039d0367efaba1092"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=541beea293fc0b1039d0367efaba1025"/>
+    <fx_price action="delete_multiple" query="id=541beea293fc0b1039d0367efaba1025"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>price_if_checked</field>
-        <id>947bda7d9370c31039d0367efaba1092</id>
+        <id>541beea293fc0b1039d0367efaba1025</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-12 17:48:23</sys_created_on>
-        <sys_id>ab8b9e7d9370c31039d0367efaba10db</sys_id>
+        <sys_created_on>2026-05-15 02:53:23</sys_created_on>
+        <sys_id>127b222693fc0b1039d0367efaba100d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-12 17:48:23</sys_updated_on>
+        <sys_updated_on>2026-05-15 02:53:23</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -132,16 +132,16 @@
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>rec_price_if_checked</field>
-        <id>947bda7d9370c31039d0367efaba1092</id>
+        <id>541beea293fc0b1039d0367efaba1025</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-12 17:48:23</sys_created_on>
-        <sys_id>e78b9e7d9370c31039d0367efaba10da</sys_id>
+        <sys_created_on>2026-05-15 02:53:23</sys_created_on>
+        <sys_id>127b222693fc0b1039d0367efaba100b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-12 17:48:23</sys_updated_on>
+        <sys_updated_on>2026-05-15 02:53:23</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
